@@ -1,5 +1,7 @@
 <body>
 
+    <p> RESULT: <span id='res-container'></span> <p>
+
     <script> 
 
         let wasmModule;
@@ -12,7 +14,8 @@
                 .then(results => wasmModule = {...results.instance.exports})
             
             console.log('wasm module parsed, testing', wasmModule);
-            alert(wasmModule.add_one(1))
+            const result = wasmModule.add_one(1);
+            document.getElementById('res-container').innerHTML = result;
 
         })()
         
