@@ -1,6 +1,6 @@
 # RUST-WASM example in browser and NodeJS
 
-## Installation \
+## Installation 
 
 ### Rust
 
@@ -29,4 +29,4 @@ or
 
 Web: `npm run start_web`
 
-Node: Web: `npm run start_node`
+Node: `npm run start_node`
