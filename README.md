@@ -12,6 +12,8 @@
 
 `rustup target add wasm32-unknown-unknown --toolchain nightly`
 
+more info: https://www.hellorust.com/setup/wasm-target/
+
 ### Node
 
 `npm i`
